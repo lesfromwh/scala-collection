@@ -5,11 +5,13 @@ package com.ls.collectiondemo.traversble
   */
 object FoldDemo {
   def main(args: Array[String]): Unit = {
-    val t = Traversable("a", "b", "c", "d", "e")
+    val t = Traversable("a", "b", "c", "d")
     val str = t.fold("z")(_ + _)
-    println(str) //zabcde
+    println(str) //zabcd
 
-    println(t.foldRight("z")(_ + _)) //abcdez
+    println(t.foldRight("z")(_ + _)) //abcdz 为什么是这个结果
+    //op(x_1, op(x_2, ... op(x_n, z)...))
+    // (a+(b+(c+(d+z))))  =abcdz
 
     val t2 = Traversable(1, 2, 3)
     println(t2.foldRight("x")(_ + _))
