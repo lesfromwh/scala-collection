@@ -15,7 +15,7 @@ object PlusDemo {
     println(newColle)   //List(a, b, 3, 333, 111, 222)
     println(newColle.getClass) //class scala.collection.immutable.$colon$colon
     println(getInnerType(newColle)) //Any
-    //也就是说newColle的时间类型是一个List[Any]
+    //也就是说newColle的类型是一个List[Any]
 
     import scala.reflect.NameTransformer._
     val ops = "~=<>!#%^&|*/+-:\\?@"
