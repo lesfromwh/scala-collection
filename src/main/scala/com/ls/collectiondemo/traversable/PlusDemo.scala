@@ -1,4 +1,4 @@
-package com.ls.collectiondemo.traversble
+package com.ls.collectiondemo.traversable
 
 import scala.collection.immutable.HashSet
 import scala.reflect.runtime.universe._

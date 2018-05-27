@@ -1,4 +1,4 @@
-package com.ls.collectiondemo.traversble
+package com.ls.collectiondemo.traversable
 
 /**
   * from -> until 含头不含尾.脚标与java规则一直.

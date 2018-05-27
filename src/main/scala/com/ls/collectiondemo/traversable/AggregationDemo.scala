@@ -1,4 +1,4 @@
-package com.ls.collectiondemo.traversble
+package com.ls.collectiondemo.traversable
 
 /**
   * 聚合函数

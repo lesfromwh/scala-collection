@@ -1,4 +1,4 @@
-package com.ls.collectiondemo.traversble
+package com.ls.collectiondemo.traversable
 
 /**
   * 得到除了第一个/最后一个元素的其他元素

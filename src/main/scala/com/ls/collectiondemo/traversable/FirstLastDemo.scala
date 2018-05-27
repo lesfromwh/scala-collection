@@ -1,4 +1,4 @@
-package com.ls.collectiondemo.traversble
+package com.ls.collectiondemo.traversable
 
 /**
   * head lase headOption lastOption find
